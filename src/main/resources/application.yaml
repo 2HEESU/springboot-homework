@@ -1,3 +1,14 @@
 spring:
   application:
     name: springhw
+  datasource:
+    url: jdbc:mysql://localhost:3306/likelion_guestbook
+    username: likelion_hw
+    password: Likelion14th!
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
